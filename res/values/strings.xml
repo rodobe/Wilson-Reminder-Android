@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WilsonReminder</string>
+    <string name="okkkk">OKKKK</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="usuario_o_correo_electronico">Usuario o correo electronico</string>
+    <string name="entrar">Entrar</string>
+    <string name="todo">TODO</string>
+</resources>
