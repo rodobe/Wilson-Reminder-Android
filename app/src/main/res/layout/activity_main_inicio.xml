@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jesus.wilsonreminder2.MainInicio">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tittle"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/WilsonVinotinto"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="Wilson Reminder"
+            app:titleMarginStart="110dp" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include
+        android:id="@+id/contenedorLogin"
+        layout="@layout/content_main_inicio" />
+
+    <ImageView
+        android:id="@+id/imgInicio"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="top|center"
+        android:layout_marginVertical="100dp"
+        app:srcCompat="@mipmap/elwilson" />
+
+    <EditText
+        android:id="@+id/txtUsuario"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        android:autoSizeTextType="uniform"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:linksClickable="false"
+        android:maxLength="50"
+        android:text="Usuario o Correo electrónico"
+        android:textAlignment="center"
+        android:textColorLink="@color/SubrayadoWilson" />
+
+    <EditText
+        android:id="@+id/txtContraseña"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:autoSizeTextType="uniform"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="50"
+        android:text="Contraseña"
+        android:textAlignment="center"
+        android:textColorLink="@color/SubrayadoWilson" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginVertical="150dp"
+        android:backgroundTint="@color/SubrayadoWilson"
+        android:onClick="iniciarSesion"
+        android:text="Iniciar Sesion"
+        android:textColorLink="@color/LetrasWilson" />
+
+    <Button
+        android:id="@+id/Registrarse"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginVertical="100dp"
+        android:backgroundTint="@color/SubrayadoWilson"
+        android:onClick="registrarForm"
+        android:text="Registrar Usuario"
+        tools:layout_editor_absoluteX="79dp" />
+
+</android.support.design.widget.CoordinatorLayout>

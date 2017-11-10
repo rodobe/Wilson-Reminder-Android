@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jesus.wilsonreminder2.RegistroUsuario">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tittleRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/WilsonVinotinto"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="Registrarse"
+            app:titleMarginStart="135dp" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include
+        android:id="@+id/contenedorRegistro"
+        layout="@layout/content_registro_usuario"
+        android:layout_height="536dp" />
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        style="@android:style/Widget.DatePicker"
+        android:layout_width="333dp"
+        android:layout_height="73dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginVertical="180dp"
+        android:dayOfWeekTextAppearance="@style/TextAppearance.AppCompat"
+        android:headerBackground="@color/WilsonVinotinto"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txtFechaNac"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="200dp"
+        android:autoSizeTextType="uniform"
+        android:text="Ingrese su Fecha deNacimiento:"
+        android:textAlignment="inherit"
+        android:textColor="@color/LetrasWilson" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginVertical="140dp"
+        android:autoSizeTextType="uniform"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Correo Electrónico"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginVertical="75dp"
+        android:autoSizeTextType="uniform"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="50"
+        android:text="Nombre"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/txtApellido1"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_marginVertical="120dp"
+        android:autoSizeTextType="uniform"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="50"
+        android:text="Primer Apellido"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="61dp" />
+
+    <EditText
+        android:id="@+id/txtContraseñaReg"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_marginVertical="220dp"
+        android:autoSizeTextType="uniform"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="50"
+        android:text="Contraseña"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/txtContraseñaRegConfirm"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginVertical="200dp"
+        android:autoSizeTextType="uniform"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="50"
+        android:text="Confirmar Contraseña"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnRegistrarse"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginVertical="70dp"
+        android:backgroundTint="@color/SubrayadoWilson"
+        android:onClick="registrado"
+        android:text="Registrar" />
+
+</android.support.design.widget.CoordinatorLayout>

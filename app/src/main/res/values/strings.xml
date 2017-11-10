@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">WilsonReminder2</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_registro_usuario">RegistroUsuario</string>
+    <string name="title_activity_saludo_wilson">SaludoWilson</string>
+</resources>
