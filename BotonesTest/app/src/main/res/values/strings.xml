@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BotonesTest</string>
+    <string name="add">+</string>
+    <string name="added">Tarea agregada</string>
+    <string name="edited">Tarea Editada</string>
+    <string name="task">Tarea</string>
+    <string name="Wilson">Wilson</string>
+    <string name="remember">Recuerda</string>
+    <string name="forget">Borralo</string>
+    <string name="cancel">Cancelar</string>
+    <string name="name">Nombre</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="fechaFinal">Fecha de culminacion</string>
+    <string name="fechaFinalActiva">Tiene fecha de culminacion?  </string>
+    <string name="introduce_fecha">Introduce la fecha de culminacion de la Tarea</string>
+    <string name="dia">Dia</string>
+    <string name="mes">Mes</string>
+    <string name="año">Año</string>
+    <string name="categoria">Categoria</string>
+
+</resources>
