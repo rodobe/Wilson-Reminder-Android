@@ -1,4 +1,4 @@
-package com.example.jesus.wilsonreminder2;
+package com.example.jesus.wilsonreminder;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.jesus.wilsonreminder2", appContext.getPackageName());
+        assertEquals("com.example.jesus.wilsonreminder", appContext.getPackageName());
     }
 }

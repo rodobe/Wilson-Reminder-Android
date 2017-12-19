@@ -1,4 +1,4 @@
-package com.example.jesus.wilsonreminder2;
+package com.example.jesus.wilsonreminder;
 
 import org.junit.Test;
 
